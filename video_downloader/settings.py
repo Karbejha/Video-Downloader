@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+=+^3473s^4qyeux4--oo0m=+ol&hbr(z7a!ekjy5a90rzyl4g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['video-downloader-d06d.onrender.com']
 
 
 # Application definition
