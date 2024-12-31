@@ -21,7 +21,6 @@ ptyprocess==0.7.0
 Pygments==2.18.0
 pyinstaller==6.11.1
 pyinstaller-hooks-contrib==2024.11
-pypiwin32==223
 requests==2.32.3
 requests-oauthlib==2.0.0
 setuptools==75.6.0
