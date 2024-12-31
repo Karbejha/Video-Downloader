@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+</head>
+<body>
+    <h1>Video Downloader</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="url">Video URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <label for="folder">Save to Folder:</label>
+        <input type="text" id="folder" name="folder" required>
+                
+        <br>
+        <button type="submit">Download</button>
+    </form>
+    <p id="status">{{ status }}</p>
+</body>
+</html>
